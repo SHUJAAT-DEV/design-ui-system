@@ -1,6 +1,7 @@
 {
-  "name": "design-system",
-  "version": "0.0.1",
+  "name": "@SHUJAAT-DEV/design-ui-system",
+  "repository": "git://github.com/SHUJAAT-DEV/design-ui-system.git",
+  "version": "1.0.0",
   "description": "Practicing  React component library",
   "scripts": {
     "rollup": "rollup -c"
@@ -23,5 +24,8 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/SHUJAAT-DEV"
+  }
 }
