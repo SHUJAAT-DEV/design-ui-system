@@ -1,7 +1,7 @@
 {
   "name": "@SHUJAAT-DEV/design-ui-system",
-  "repository": "git://github.com/SHUJAAT-DEV/design-ui-system.git",
-  "version": "1.0.0",
+  "repository": "https://github.com/SHUJAAT-DEV/design-ui-system.git",
+  "version": "1.1.1",
   "description": "Practicing  React component library",
   "scripts": {
     "rollup": "rollup -c"
