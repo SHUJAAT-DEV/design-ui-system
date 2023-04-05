@@ -1,10 +1,10 @@
 {
-  "name": "@SHUJAAT-DEV/design-ui-system",
-  "repository": "https://github.com/SHUJAAT-DEV/design-ui-system.git",
-  "version": "1.1.1",
+  "name": "@shujaat-dev/design-ui-system",
+  "version": "1.1.5",
   "description": "Practicing  React component library",
   "scripts": {
-    "rollup": "rollup -c"
+    "rollup": "rollup -c",
+    "prepare": "npm run build"
   },
   "author": "Shujaat Ali",
   "license": "ISC",
@@ -22,10 +22,11 @@
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
-    "dist"
+    "dist/**/*"
   ],
   "types": "dist/index.d.ts",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/SHUJAAT-DEV"
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:SHUJAAT-DEV/design-ui-system.git"
   }
 }
