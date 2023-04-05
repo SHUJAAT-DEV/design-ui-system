@@ -33,7 +33,7 @@ const exampleTabContent = [
   },
 ]
 
-export function Tabs(props: TabProps): ReactElement {
+export default function Tabs(props: TabProps): ReactElement {
   const [tabNumber, setTabNumber] = useState<number>(0);
   const { tabContentArray = exampleTabContent } = props;
 
